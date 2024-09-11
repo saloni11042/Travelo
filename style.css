@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 header{
     background-image: url('./images/banner.png.webp');
     width: 100vw;
@@ -13,6 +18,11 @@ header{
     height: 50px;
     background-color: #1EC6B6;
     color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 15px;
 }
 h1{
     font-family: "Nothing You Could Do", cursive;
@@ -26,4 +36,17 @@ h1{
     font-weight:normal;
     font-style: normal;
     font-size: 18px;
+}
+.header-content{
+    padding: 20vh 35vw;
+}
+.destination{
+    background-color: #040E27;
+}
+.destination-col{
+    display: inline;
+}
+.destination-heading{
+    display: inline;
+    color: white;
 }
