@@ -140,5 +140,129 @@ h1{
 .popular-row2{
     width: 100%;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    gap: 30px 10px;
+}
+.popular-grid-col img{
+    width: 92%;
+}
+.popular-grid-col{
+    position: relative;
+}
+.grid-places{
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    display: flex;
+    gap: 20px;
+  
+}
+.grid-places p{
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+}
+.grid-places a{
+    display: inline-block;
+    background-color: #1EC6B6;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    height: 23px;
+    width: 70px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popular-places{
+    margin-top: 100px;
+    background-color: #F7FAFD;
+    padding-bottom: 50px;
+}
+.popular-places-row1{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popular-places-row1 .col{
+    width: 40%;
+    text-align: center;
+}
+.popular-places-row1 .col h2{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+    font-size: 32px;
+    
+}
+.popular-places-row1 .col p{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-size: 15px;
+    padding: 15px;
+    line-height: 1.8;
+}
+.popular-card-image{
+    position: relative;
+    
+} 
+.popular-card-image a{
+    display: inline-block;
+    background-color: #1EC6B6;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    height: 25px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+}
+.popular-card-content h3{
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.popular-card-content p{
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    padding-top: 7px;
+    color: grey;
+}
+.popular-card-review{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+}
+.popular-places-row2 .col{
+    width: 25%;
+}
+.popular-card{
+width: 100%;
+border-radius: 50px;
+}
+.popular-card-image{
+    width: 100%;
+}
+.popular-card-image img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.popular-card-content{
+    padding: 30px 20px;
+    background-color: white;
+}
+.video-row{
+    margin-top: 50px;
 }
