@@ -245,7 +245,7 @@ h1{
     padding-top: 7px;
 }
 .popular-places-row2 .col{
-    width: 25%;
+    width: 100%;
 }
 .popular-card{
 width: 100%;
@@ -265,4 +265,17 @@ border-radius: 50px;
 }
 .video-row{
     margin-top: 50px;
+}
+.popular-places-row2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    gap: 30px 10px;
+}
+.popular-places-row3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
 }
