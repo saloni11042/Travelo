@@ -92,12 +92,46 @@ h1{
     width: 50%;
     display: flex;
     align-items: center;
+    /* justify-content: space-around; */
+}
+.navbar-col1-image{
+    width: 30%;
+}
+.navbar-col1-list{
+    width: 70%;
+    display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+.navbar-col1 a:hover{
+    color: #1EC6B6;
+}
+.nav-pages-dropdown ul{
+list-style: none;
+}
+.nav-pages-dropdown{
+    padding: 10px;
+    line-height: 1.8;
+  display: none;
+}
+.nav-pages:hover .nav-pages-dropdown{
+    display: block;
+}
+.navbar-col1-list a{
+  text-decoration: none;
 }
 /* .nav-icons > i{
     padding-left: 10px;
 } */
-
+.nav-pages{
+    position: relative;
+}
+.nav-pages-dropdown{
+position: absolute;
+background-color: white;
+top: 60px;
+min-width: 160px;
+}
 .nav-icons{
     display: flex;
     width: 40%;
