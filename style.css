@@ -129,6 +129,9 @@ h1{
     width: 100vw;
     padding: 25px 5px;
 }
+.nav-menu{
+    display: none;
+}
 .navbar-col2{
     width: 25%;
     display: flex;
@@ -376,4 +379,42 @@ border-radius: 50px;
     justify-content: center;
     align-items: center;
     margin: 50px;
+}
+.footer-row1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-main-col1{
+    width: 20%;
+}
+.footer-main-col2{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.footer-popular-row{
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width:600px){
+    .navbar-col1-list{
+        display: none;
+    }
+    .nav-menu{
+        display: block;
+    }
+    .navbar-col1{
+        justify-content: space-between;
+    }
+    .nav-contact{
+        display: none;
+    }
+    .nav-icons{
+        display: none;
+    }
+    .header{
+        height: 50vh;
+    }
 }
